@@ -6,10 +6,15 @@ Leds::Leds() {
   pixels.show();
 }
 
-void Leds::init() {}
+void Leds::init() {
+  //Do some fancy things
+}
 
-void Leds::update() {}
+void Leds::update() {
+  pixels.show();
+}
 
-void Leds::set(uint32_t color, int pixel) {
+void Leds::set(uint32_t color, int pixel, int brightness) {
   pixels.setPixelColor(pixel, color);
+  pixels.setBrightness(brightness);
 }
