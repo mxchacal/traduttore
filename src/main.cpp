@@ -41,7 +41,7 @@ void setup() {
 }
 
 void loop() {
-  MIDI.read();
+  MIDI.read(3);
   leds.update();
 }
 
