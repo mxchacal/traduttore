@@ -2,7 +2,7 @@
 #include <mcp4728.h>
 #include <ShiftRegister74HC595.h>
 #include <MIDI.h>
-#include <leds.h>
+#include "leds.h"
 
 #define LO_BRGHTNSS 100
 #define HI_BRGHTNSS 255
